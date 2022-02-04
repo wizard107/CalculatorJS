@@ -1,0 +1,28 @@
+#wrapper{
+    width: 800px;
+    margin: 0 auto;
+    margin-left: 300px;
+    margin-right: auto;
+    max-width: 960px;
+}
+
+span.foundation {
+    display: inline-block; /* the default for span */
+    width: 400px;
+    height: 400px;
+    padding: 5px;
+    border: 1px solid #e7e7e7;  
+    background-color: white; 
+}
+
+span.result{
+    display: inline-block; /* the default for span */
+    width: 40%;
+    margin: 10px 6px 10px 0;
+    padding: 25px 10px;
+    border: 1px solid #e7e7e7;  
+    background-color: white; 
+    text-align:center;
+    vertical-align: top;
+    margin-left: -380px;
+}

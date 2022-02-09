@@ -1,28 +1,70 @@
-#wrapper{
-    width: 800px;
-    margin: 0 auto;
-    margin-left: 300px;
-    margin-right: auto;
-    max-width: 960px;
-}
-
-span.foundation {
-    display: inline-block; /* the default for span */
-    width: 400px;
+body {
+    width: 500px;
+    margin: 4% auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 5px;
+    font-size: 1.8rem;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+.calculator {
+    /*display: inline-block;  the default for span */
+    padding: 20px;
+    /*width: 400px;
     height: 400px;
-    padding: 5px;
+    padding: 5px;*/
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 1px;
     border: 1px solid #e7e7e7;  
-    background-color: white; 
+    background-color: black; 
 }
 
-span.result{
-    display: inline-block; /* the default for span */
-    width: 40%;
-    margin: 10px 6px 10px 0;
-    padding: 25px 10px;
-    border: 1px solid #e7e7e7;  
-    background-color: white; 
-    text-align:center;
+.input{
+    /*display: inline-block;  the default for span */
+    padding-right: 15px;
+    padding-top: 10px;
+    border: 1px solid #e7e7e7; 
+    background-color: lightblue; 
+    text-align:right;
     vertical-align: top;
-    margin-left: -380px;
+    margin-right: 6px;
+    height:60px;
+}
+
+.operators{}
+
+.operators div{
+    display: inline-block;
+  border: 1px solid #bbb;
+  border-radius: 1px;
+  width: 80px;
+  padding: 10px;
+  height: 30px;
+  text-align: center;
+  margin: 20px 4px 10px 0;
+  cursor: pointer;
+  background-color: #ddd;
+  transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
+
+.numbers{}
+
+.leftPanel{
+    display: inline-block;
+}
+
+.numbers div{
+    display: inline-block;
+  border: 1px solid #bbb;
+  border-radius: 1px;
+  width: 80px;
+  padding: 10px;
+  height: 30px;
+  text-align: center;
+  margin: 20px 4px 10px 0;
+  cursor: pointer;
+  background-color: #ddd;
+  transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
 }
